@@ -1,0 +1,40 @@
+h1{position: absolute;
+    width: 373px;
+    height: 176px;
+    left: 55px;
+    top: 52px;
+    
+    font-family: 'Henny Penny';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 113px;
+    
+    color: #000000;}
+img{position: absolute;
+    width: 225px;
+    height: 223px;
+    left: 75px;
+    top: 199px;
+    
+    border-radius: 100px;}
+#fondo{position: absolute;
+    width: 245px;
+    height: 245px;
+    left: 66px;
+    top: 187px;
+    
+    background: #83BCFF;
+    
+    border-radius: 100px;
+}
+    button{
+        position: absolute;
+width: 228px;
+height: 53px;
+left: 76px;
+top: 533px;
+
+background: #80FFE8;
+border-radius: 10px;
+    }
