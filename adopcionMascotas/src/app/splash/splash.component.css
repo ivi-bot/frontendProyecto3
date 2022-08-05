@@ -1,3 +1,8 @@
+h1{
+    align-items: center;
+}
+/*
+
 h1{position: absolute;
     width: 373px;
     height: 176px;
@@ -38,3 +43,4 @@ top: 533px;
 background: #80FFE8;
 border-radius: 10px;
     }
+    */
