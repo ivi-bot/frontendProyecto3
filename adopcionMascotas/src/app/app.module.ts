@@ -31,6 +31,7 @@ import {MatButtonToggleModule} from '@angular/material/button-toggle';
 
 
 import { SplashComponent } from './splash/splash.component';
+import { MascotasAdoptanteComponent } from './mascotas-adoptante/mascotas-adoptante.component';
 
 @NgModule({
   declarations: [
@@ -43,7 +44,8 @@ import { SplashComponent } from './splash/splash.component';
     InformacionComponent,
     InformacionFundacionComponent,
     PrincipalfundacionComponent,
-    SplashComponent
+    SplashComponent,
+    MascotasAdoptanteComponent
   ],
   imports: [
     AppRoutingModule,

@@ -11,6 +11,7 @@ import { InformacionComponent } from './informacion/informacion.component';
 import { InformacionFundacionComponent } from './informacion-fundacion/informacion-fundacion.component';
 import { PrincipalfundacionComponent } from './principalfundacion/principalfundacion.component';
 import { SplashComponent } from './splash/splash.component';
+import { MascotasAdoptanteComponent } from './mascotas-adoptante/mascotas-adoptante.component';
 
 
 const routes: Routes = [
@@ -23,6 +24,7 @@ const routes: Routes = [
     { path: "informacion-fundacion", component: InformacionFundacionComponent },
     { path: "principalfundacion", component: PrincipalfundacionComponent },
     { path: "splash", component: SplashComponent },
+    {path:"mascotasadoptante",component:MascotasAdoptanteComponent},
 
     { path: "**", redirectTo: "splash" }
  ];

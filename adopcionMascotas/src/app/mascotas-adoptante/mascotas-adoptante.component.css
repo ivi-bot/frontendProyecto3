@@ -1,3 +1,32 @@
+#buscar {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    color: #000000;
+    line-height:45px;
+}
+
+h4 {
+    padding: 5% 5% 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+
+}
+#im{
+    border-radius: 100%;
+}
+.fotos{
+padding-top: 5%;
+padding-bottom: 5%;
+    border-radius: 20%;
+
+}
+
 img {
     border-radius: 10%;
 }
@@ -28,7 +57,12 @@ mat-button-toggle-group {
     background: linear-gradient(to bottom, #83BCFF, #80F7FF);
 }
 
-#info{
+#perfil {
+    width: 50%;
+    padding: 5%;
+}
+
+#tusmascotas {
     background: #667eea;
 
     /* Chrome 10-25, Safari 5.1-6 */
@@ -39,9 +73,4 @@ mat-button-toggle-group {
     border-radius: 20px;
     padding: 5% 5% 5%;
     width: 100%;
-
-}
-
-button{
-    background: #65524D;
 }
