@@ -25,6 +25,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import {MatCardModule} from '@angular/material/card';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatSelectModule} from '@angular/material/select';
+import {MatButtonToggleModule} from '@angular/material/button-toggle';
 
  
 
@@ -57,7 +58,8 @@ import { SplashComponent } from './splash/splash.component';
     ReactiveFormsModule,
     MatCardModule,
     MatFormFieldModule,
-    MatSelectModule
+    MatSelectModule,
+    MatButtonToggleModule
   ],
   providers: [],
   bootstrap: [AppComponent]

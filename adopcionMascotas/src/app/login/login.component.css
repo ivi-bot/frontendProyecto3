@@ -5,6 +5,7 @@ body,
 }
 
 @media (min-width: 560px) and (max-width: 750px) {
+
   html,
   body,
   .intro {
@@ -13,6 +14,7 @@ body,
 }
 
 @media (min-width: 800px) and (max-width: 850px) {
+
   html,
   body,
   .intro {
@@ -31,26 +33,28 @@ body,
   background: linear-gradient(to bottom, #FDD692, #FDBC92);
 }
 
-img{
-   
-    width: 122px;
-    height: 117px;
-    border-radius: 100px;
-    }
+img {
 
-h1{
-        
-        font-family: 'Henny Penny';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 48px;
-        line-height: 85px;
-        color: #000000;
+  width: 122px;
+  height: 117px;
+  border-radius: 100px;
 }
-.form-control{
-background-color: #D9D9D9;
-border-color: #D9D9D9;    
-}      
-button:hover{
-    background-color: #80FFE8;
+
+h1 {
+
+  font-family: 'Henny Penny';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 85px;
+  color: #000000;
+}
+
+.form-control {
+  background-color: #D9D9D9;
+  border-color: #D9D9D9;
+}
+
+button:hover {
+  background-color: #80FFE8;
 }

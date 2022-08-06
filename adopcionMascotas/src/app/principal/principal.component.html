@@ -1,13 +1,51 @@
-<h2 id="buscar">Busca</h2>
-<div id="actualizaciones"></div>
-<h3>Enterate de las nuevas actualizaciones</h3>
-<img id="imgact" src="./assets/imagenes/picsea-EScCHx_ZR8Y-unsplash.jpg">
-<h2 id="fundaciones">Nuestras fundaciones</h2>
-<img id="img1" src="./assets/imagenes/hidayat-abisena-JsDlJ3hZyf8-unsplash.jpg">
-<img id="img2" src="./assets/imagenes/jana-shnipelson-KnzXzvRqTFE-unsplash.jpg">
-<img id="img3" src="./assets/imagenes/cynthia-smith-vDs0MCYkfQ4-unsplash.jpg">
-<img id="img4" src="./assets/imagenes/sasha-sashina-Xcscr_sNSEY-unsplash.jpg">
-<div id="footer"></div>
-<img id="icon1" src="./assets/icons/bx-donate-heart.svg" routerLink="/filtro" >
-<img id="icon2" src="./assets/icons/bx-list-check.svg">
-<img id="icon3" src="./assets/icons/bxs-user.svg" routerLink="/adoptante">
+<section class="intro">
+    <div class="mask d-flex align-items-center h-100" style="background-color: rgba(255,255,255,.6);">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+            <div class="card gradient-custom" style="border-radius: 1rem;">
+              <div class="card-body p-5 text-white">
+                <div class="my-md-5">
+                  <div>
+                    <h2 id="buscar" class="pb-4">Busca</h2>
+                    <div id="imgcenter" class="text-center">
+                        <h4 class="text-left">Entérate de las nuevas actualizaciones</h4>
+                        <img class="img-fluid" id="im" src="./assets/imagenes/picsea-EScCHx_ZR8Y-unsplash.jpg">
+                    </div>
+                    <h2 id="fundaciones">Nuestras fundaciones</h2>
+                    <mat-grid-list cols="2" rowHeight="2:2">
+                        <mat-grid-tile>
+                            <img class="img-fluid" id="img1e"  src="./assets/imagenes/hidayat-abisena-JsDlJ3hZyf8-unsplash.jpg">
+                        </mat-grid-tile>
+                        <mat-grid-tile>
+                            <img class="img-fluid" id="img2e" src="./assets/imagenes/jana-shnipelson-KnzXzvRqTFE-unsplash.jpg">
+                        </mat-grid-tile>
+                        <mat-grid-tile>
+                            <img class="img-fluid" id="img3e" src="./assets/imagenes/cynthia-smith-vDs0MCYkfQ4-unsplash.jpg">
+                        </mat-grid-tile>
+                        <mat-grid-tile>
+                            <img class="img-fluid" id="img4e" src="./assets/imagenes/sasha-sashina-Xcscr_sNSEY-unsplash.jpg">
+                        </mat-grid-tile>
+                    </mat-grid-list>
+                    <div id="footer">
+                        <mat-button-toggle-group name="nav" aria-label="nav">
+                            <mat-button-toggle  value="filtro" routerLink="/filtro">
+                                <img id="icon1e" src="./assets/icons/bx-donate-heart.svg" >
+                            </mat-button-toggle>
+                            <mat-button-toggle value="green">
+                                <img id="icon2e" src="./assets/icons/bx-list-check.svg">
+                            </mat-button-toggle>
+                            <mat-button-toggle value="adoptante" routerLink="/adoptante">
+                                <img id="icon3e" src="./assets/icons/bxs-user.svg">
+                            </mat-button-toggle>
+                          </mat-button-toggle-group>
+                    </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
